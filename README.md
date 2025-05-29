@@ -10,14 +10,13 @@ track reward, detection accuracy, and recovery time after dynamic difficulty spi
   - Cell 2: Environment & Curriculum wrapper  
   - Cell 3: DQNAgent w/ detection head & recovery tracking  
   - Cell 4: Safe training for 200 episodes + partial-save  
-  - Cell 5: Plotting rewards, detect-acc, recovery times  
-## *requirements.txt*
+  - Cell 5: Plotting rewards, detect-acc, recovery times
+  
+## *Requirements.txt*
 gym[atari,accept-rom-license]
 autorom
 tensorflow>=2.10
 matplotlib
-- *videos/* — key-episode gameplay clips  
-- *breakout_dqn_curr_det_curr.h5* — final model weights
 
 ## Usage  
 1. open Q3_notebook.ipynb in Colab (GPU runtime).  
