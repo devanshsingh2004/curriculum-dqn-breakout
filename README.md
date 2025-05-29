@@ -20,7 +20,7 @@ matplotlib
 - *breakout_dqn_curr_det_curr.h5* — final model weights
 
 ## Usage  
-1. Clone this repo and open Q3_notebook.ipynb in Colab (GPU runtime).  
+1. open Q3_notebook.ipynb in Colab (GPU runtime).  
 2. Run Cells 1→5. Training for 200 episodes completes in ~6 min on T4.  
 3. Find videos in videos/ and model in .h5.  
 4. Reproduce plots in Cell 5.
