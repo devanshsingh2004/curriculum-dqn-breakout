@@ -1,0 +1,4 @@
+gym[atari,accept-rom-license]
+autorom
+tensorflow>=2.10
+matplotlib
